@@ -91,7 +91,15 @@ Grad-CAM was applied to visualize class-discriminative regions in chest X-ray im
 
 You can run the full pipeline and experiments in Google Colab:
 
-[Open in Colab](https://colab.research.google.com/github/ali-mohamadpour/Chest-X-Ray-Lung-Disease-Classification-EfficientNet-PyTorch/blob/main/Chest_XRay_Lung_Disease_Classification_EfficientNet_B0_B3.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ali-mohamadpour/Chest-X-Ray-Lung-Disease-Classification-EfficientNet-PyTorch/blob/main/Chest_XRay_Lung_Disease_Classification_EfficientNet_B0_B3.ipynb)
+
+---
+
+##  Dataset
+
+The chest X-ray dataset used in this project was obtained from a publicly available source and re-hosted on Zenodo for ease of access and reproducibility.
+
+ Dataset link: https://doi.org/10.5281/zenodo.18090336
 
 ---
 
@@ -110,6 +118,7 @@ You can run the full pipeline and experiments in Google Colab:
     │     ├── gradcam_b0_pneumonia.png
     │     ├── gradcam_b3_normal.png
     │     └── gradcam_b3_pneumonia.png               
+    ├── final_results.csv
     ├── LICENSE
     └── README.md
     
