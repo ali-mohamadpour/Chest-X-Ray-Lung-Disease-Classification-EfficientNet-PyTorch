@@ -4,17 +4,6 @@ This project presents a deep learning-based framework for automated lung disease
 
 ---
 
-##  Dataset Structure
-   ├── Chest_XRay_Lung_Disease_Classification_EfficientNet_B0_B3.ipynb
-   ├── Chest_XRay_Lung_Disease_Classification_EfficientNet_B0_B3.py 
-   ├── img/    
-   │     ├── results_accuracy.png
-   │     └── confusion_matrix_S1.png               
-   ├── LICENSE
-   └── README.md
-
----
-
 ##  Methodology
 
 - EfficientNet-B0 as a lightweight baseline model  
@@ -104,6 +93,26 @@ You can run the full pipeline and experiments in Google Colab:
 
 [Open in Colab](https://colab.research.google.com/github/ali-mohamadpour/Chest-X-Ray-Lung-Disease-Classification-EfficientNet-PyTorch/blob/main/Chest_XRay_Lung_Disease_Classification_EfficientNet_B0_B3.ipynb)
 
+---
+
+##  Dataset Structure
+
+    ├── Chest_XRay_Lung_Disease_Classification_EfficientNet_B0_B3.ipynb
+    ├── Chest_XRay_Lung_Disease_Classification_EfficientNet_B0_B3.py
+    ├── img/    
+    │     ├── b0_vs_b3.png
+    │     ├── confusion_matrix_b0.png
+    │     ├── confusion_matrix_b3.png
+    │     ├── roc_b0.png
+    │     ├── roc_b3.png
+    │     ├── accuracy_comparison.png
+    │     ├── gradcam_b0_normal.png
+    │     ├── gradcam_b0_pneumonia.png
+    │     ├── gradcam_b3_normal.png
+    │     └── gradcam_b3_pneumonia.png               
+    ├── LICENSE
+    └── README.md
+    
 ---
 
 ##  Usage Note
